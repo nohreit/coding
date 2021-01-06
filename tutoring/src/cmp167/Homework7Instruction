@@ -1,0 +1,27 @@
+Homework 7-1
+In this assignment you will be writing multiple methods that work with arrays.
+These methods will perform specific functions and, in most cases, return results.
+Your class should be named Grades.
+Your program will have the following methods:
+
+public static int readGrades()
+public static int sum(int[] arr)
+public static int sum(int[] arr, int firstIndex, int lastIndex)
+public static double average(int[] arr)
+public static int maxValue(int[] arr)
+public static int maxValue(int[] arr, int firstIndex, int lastIndex)
+public static int indexOfFirstMaxValue(int[] arr)
+public static int minValue(int[] arr)
+public static int minValue(int[] arr, int firstIndex, int lastIndex)
+public static int indexOfFirstMinValue(int[] arr)
+public static int numberOfBelowAverageElements(int[] arr)
+public static int numberOfAboveAverageElements(int[] arr)
+public static void rotateElements(int[] arr)
+public static void rotateElements(int[] arr, int rotationCount)
+public static void reverseArray(int[] arr)
+public static void main(String[] args)
+
+Please complete all the Participation and Challenge activities in the above sections. This work must be completed in your textbook  ZYBooks -- CMP-167: Programming Methods I
+
+No other forms of submission will be accepted.
+
