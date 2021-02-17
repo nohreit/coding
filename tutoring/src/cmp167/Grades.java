@@ -181,7 +181,7 @@ Grades {
         return counterA;
     }
 
-    public static void rotateElements(int[] arr) {
+    public static void rotateElements(int[] arr) { // Rotate right
         int e = arr[arr.length - 1];
 
         // we start from the last index to 1

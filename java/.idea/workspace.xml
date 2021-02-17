@@ -1,11 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e862c18-f97f-4769-ae31-12c8882ebacb" name="Default Changelist" comment="" />
+    <list default="true" id="0e862c18-f97f-4769-ae31-12c8882ebacb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../android/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToast/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToast/app/src/main/res/layout-sw600dp/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/androidTest/java/com/example/hellotoast/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/java/com/example/hellotoast/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/app/src/test/java/com/example/hellotoast/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../android/HelloToastChallenge/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Anything.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IAnything.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -18,8 +80,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codes" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Anything" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Anything" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="java" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Anything" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,11 +122,5 @@
       <updated>1605231500869</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1220" y="274" key="FileChooserDialogImpl" timestamp="1606065058185">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606065058185" />
   </component>
 </project>
