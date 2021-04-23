@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:id="@+id/mealImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/meal_banner" />
+
+        <TextView
+            android:id="@+id/mealTitleDetail"
+            style="@style/MealTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mealImageDetail"
+            android:padding="8dp"
+            android:text="@string/mealTitle"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/caloriesDetail"
+            style="@style/MealDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mealImageDetail"
+            android:padding="8dp"
+            android:text="@string/calories"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/ingredientsDetail"
+            style="@style/MealDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caloriesDetail"
+            android:padding="16dp"
+            android:text="@string/ingredients" />
+
+        <TextView
+            android:id="@+id/linkToRecipeDetail"
+            style="@style/MealTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredientsDetail"
+            android:padding="8dp"
+            android:text="@string/linkToRecipe"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/descriptionDetail"
+            style="@style/MealDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linkToRecipeDetail"
+            android:padding="16dp"
+            android:text="@string/lorem_ipsum_paragraph" />
+
+
+    </RelativeLayout>
+</ScrollView>

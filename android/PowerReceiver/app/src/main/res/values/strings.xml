@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PowerReceiver</string>
+    <string name="send_custom_broadcast">Send Custom Broadcast</string>
+    <string name="toastmsg_power_connected">Power connected!</string>
+    <string name="toastmsg_power_disconnected">Power disconnected!</string>
+    <string name="toastmsg_custom_broadcast_received">Custom Broadcast Received</string>
+    <string name="toastmsg_headset_plugged">Headset plugged</string>
+</resources>

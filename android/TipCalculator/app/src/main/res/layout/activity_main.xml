@@ -2,127 +2,239 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/seek_bar"
+    android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/gird_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:columnCount="2"
-        app:columnOrderPreserved="false"
+    <ScrollView
+        android:id="@+id/scroll_container"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <EditText
-            android:id="@+id/editText_BillAmount"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/enter_amount"
-            android:importantForAutofill="no"
-            android:inputType="number"
-            android:textSize="36sp"
-            app:layout_columnSpan="2" />
-
-        <TextView
-            android:id="@+id/textView_PercentageTip"
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gird_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:text="@string/tip_percentage_value"
-            android:textAlignment="center"
-            android:textSize="36sp"
-            app:layout_column="0"
-            app:layout_gravity="right"
-            app:layout_row="1" />
+            app:columnCount="2"
+            app:columnOrderPreserved="true">
 
-        <TextView
-            android:id="@+id/textView_TipLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center_horizontal"
-            android:text="@string/tip_label"
-            android:textAlignment="center"
-            android:textSize="36sp"
-            app:layout_column="0"
-            app:layout_gravity="right"
-            app:layout_row="2" />
+            <EditText
+                android:id="@+id/editText_BillAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_amount"
+                android:importantForAutofill="no"
+                android:inputType="number|numberDecimal"
+                android:textSize="36sp"
+                app:layout_column="0"
+                app:layout_columnSpan="2"
+                app:layout_row="0" />
 
-        <TextView
-            android:id="@+id/textView_TotalLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center_horizontal"
-            android:text="@string/total_label"
-            android:textAlignment="center"
-            android:textSize="36sp"
-            app:layout_column="0"
-            app:layout_gravity="right"
-            app:layout_row="3" />
+            <RadioGroup
+                android:id="@+id/options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                app:layout_column="0"
+                app:layout_columnSpan="2"
+                app:layout_gravity="center_horizontal"
+                app:layout_row="1">
 
-        <SeekBar
-            android:id="@+id/seekBar"
-            android:layout_width="274dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:minWidth="100dp"
-            app:layout_column="1"
-            app:layout_gravity="center_horizontal"
-            app:layout_row="1" />
+                <RadioButton
+                    android:id="@+id/no_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/no_option"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="@dimen/default_text_size" />
 
-        <TextView
-            android:id="@+id/textView_TipAmount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:text="@string/tip_amount_value"
-            android:textAlignment="center"
-            android:textSize="36sp"
-            app:layout_column="1"
-            app:layout_gravity="center_horizontal"
-            app:layout_row="2" />
+                <RadioButton
+                    android:id="@+id/tip_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/tip_option"
+                    android:textSize="@dimen/default_text_size" />
 
-        <TextView
-            android:id="@+id/textView_TotalAmount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:text="@string/total_amount_value"
-            android:textAlignment="center"
-            android:textSize="36sp"
-            app:layout_column="1"
-            app:layout_gravity="center_horizontal"
-            app:layout_row="3" />
-    </androidx.gridlayout.widget.GridLayout>
+                <RadioButton
+                    android:id="@+id/total_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/total_option"
+                    android:textSize="@dimen/default_text_size" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView_PercentageTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/tip_percentage_value"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="0"
+                app:layout_gravity="center_vertical|end"
+                app:layout_row="2" />
+
+            <TextView
+                android:id="@+id/textView_TipLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/tip_label"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="0"
+                app:layout_gravity="center_vertical|end"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/textView_TotalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/total_label"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="0"
+                app:layout_gravity="center_vertical|end"
+                app:layout_row="5" />
+
+            <SeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:minWidth="100dp"
+                app:layout_column="1"
+                app:layout_gravity="start|center_vertical"
+                app:layout_row="2" />
+
+            <TextView
+                android:id="@+id/textView_TipAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/tip_amount_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="1"
+                app:layout_gravity="center_horizontal"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/split_bill_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/split_bill"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="0"
+                app:layout_gravity="center_vertical|end"
+                app:layout_row="4" />
+
+            <Spinner
+                android:id="@+id/spinner_spliter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="1"
+                app:layout_gravity="center_horizontal"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/textView_TotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/total_amount_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="1"
+                app:layout_gravity="center_horizontal"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/per_person_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/per_person_label"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="0"
+                app:layout_gravity="center_vertical|end"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/per_person_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/per_person_amount"
+                android:textAlignment="center"
+                android:textSize="@dimen/default_text_size"
+                app:layout_column="1"
+                app:layout_gravity="center_horizontal"
+                app:layout_row="6" />
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

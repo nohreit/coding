@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mealImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/meal_banner" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/MealTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mealImage"
+            android:padding="8dp"
+            android:text="@string/title"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/calories"
+            style="@style/MealDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mealImage"
+            android:padding="8dp"
+            android:text="@string/calories"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            style="@style/MealDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calories"
+            android:padding="16dp"
+            android:text="@string/ingredients" />
+
+        <TextView
+            android:id="@+id/linkToRecipe"
+            style="@style/MealTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredients"
+            android:padding="8dp"
+            android:text="@string/linkToRecipe"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/MealDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linkToRecipe"
+            android:padding="16dp"
+            android:text="@string/lorem_ipsum_paragraph" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

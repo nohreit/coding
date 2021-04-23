@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Teams Score Counter</string>
+    <string name="team_name_left">TEAM BLUE</string>
+    <string name="team_name_right">TEAM RED</string>
+    <string name="team_score_left">0</string>
+    <string name="team_score_right">0</string>
+    <string name="team_btn_left">+1 pts</string>
+    <string name="team_btn_right">+1 pts</string>
+    <string name="show_winner_name">TEAM</string>
+    <string name="score_difference_view">0</string>
+    <string name="text_winner">WINNER</string>
+    <string name="bg_blue_vs_red">myBg</string>
+    <string name="bg_description">background image for the main activity</string>
+</resources>

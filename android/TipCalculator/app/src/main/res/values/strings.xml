@@ -1,9 +1,41 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
-    <string name="enter_amount">Enter Amount</string>
-    <string name="tip_label">Tip</string>
-    <string name="total_label">Total</string>
+    <string name="enter_amount">Enter an amount</string>
+    <string name="tip_label">Tip:</string>
+    <string name="total_label">Total:</string>
     <string name="tip_percentage_value">0%</string>
     <string name="tip_amount_value">$0.00</string>
     <string name="total_amount_value">$0.00</string>
+    <string name="split_bill">Split bill:</string>
+    <string name="round_up_options">Rounding Options</string>
+    <string name="select_option">Select an option to round up the corresponding value</string>
+    <string name="no_option">No</string>
+    <string name="tip_option">Tip</string>
+    <string name="total_option">Total</string>
+    <string name="info_fab_decription">Displays a dialog explaining the spinner use</string>
+    <string name="share_fab_description">Sends a message to friends</string>
+    <string name="info_menu">Info</string>
+    <string name="share_menu">Share</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="message_dialog_title">Send Message</string>
+    <string name="enter_phone_hint">Enter a phone number</string>
+    <string name="button">Button</string>
+    <string name="send_message_btn">Send</string>
+    <string name="share_item">Share</string>
+    <string name="info_item">Info</string>
+    <string name="per_person_label">Per Person:</string>
+    <string name="per_person_amount">$0.00</string>
+    <string name="ok_btn">OK</string>
+    <string-array name="spinner_split_list">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
 </resources>

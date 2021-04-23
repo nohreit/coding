@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="title_placeholder">Title</string>
+    <string name="calories_placeholder">Calories</string>
+    <string name="ingredients_placeholder">Ingredients</string>
+    <string name="lint_to_recipe_placeholder">https://www.recipe.com</string>
+    <string name="description_placeholder">Description</string>
+    <string name="meal_image_banner">Meal image banner</string>
+    <string name="confirmDialogTitle">Confirm Action</string>
+    <string name="messageConfirmDialog">Do you really want to delete this meal?</string>
+    <string name="reset_fab_description">Reset the view</string>
+    <string name="add_fab_description">Add items to the view</string>
+
+    <string-array name="meal_titles">
+        <item>Title1</item>
+        <item>Title2</item>
+        <item>Title3</item>
+        <item>Title4</item>
+        <item>Title5</item>
+        <item>Title6</item>
+    </string-array>
+
+    <string-array name="meal_calories">
+        <item>Calories1</item>
+        <item>Calories2</item>
+        <item>Calories3</item>
+        <item>Calories4</item>
+        <item>Calories5</item>
+        <item>Calories6</item>
+    </string-array>
+
+    <string-array name="meal_ingredients">
+        <item>Ingredients1</item>
+        <item>Ingredients2</item>
+        <item>Ingredients3</item>
+        <item>Ingredients4</item>
+        <item>Ingredients5</item>
+        <item>Ingredients6</item>
+    </string-array>
+
+    <string-array name="meal_recipe_links">
+        <item>RecipeLink1</item>
+        <item>RecipeLink2</item>
+        <item>RecipeLink3</item>
+        <item>RecipeLink4</item>
+        <item>RecipeLink5</item>
+        <item>RecipeLink6</item>
+    </string-array>
+
+    <string-array name="meal_descriptions">
+        <item>Description1</item>
+        <item>Description2</item>
+        <item>Description3</item>
+        <item>Description4</item>
+        <item>Description5</item>
+        <item>Description6</item>
+    </string-array>
+
+    <array name="meal_images">
+        <item>@drawable/beef_meatballs_with_boom_boom_sauce</item>
+        <item>@drawable/blackened_shrimp_with_aioli</item>
+        <item>@drawable/chicken_stuffed_with_herb_cream</item>
+        <item>@drawable/chicken_with_cilantro_mojo_sauce</item>
+        <item>@drawable/creamy_italian_sausage_soup</item>
+        <item>@drawable/pork_with_balsamic_tomato_sauce</item>
+<!--        <item>@drawable/ic_launcher_foreground</item>-->
+    </array>
+
+</resources>

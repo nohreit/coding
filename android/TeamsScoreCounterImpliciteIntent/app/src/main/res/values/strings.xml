@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Teams Score Counter</string>
+    <string name="team_name_left">TEAM BLUE</string>
+    <string name="team_name_right">TEAM RED</string>
+    <string name="team_score_left">0</string>
+    <string name="team_score_right">0</string>
+    <string name="team_btn_left">+1 pts</string>
+    <string name="team_btn_right">+1 pts</string>
+    <string name="show_winner_name">TEAM</string>
+    <string name="score_difference_view">0</string>
+    <string name="text_winner">WINNER</string>
+    <string name="bg_blue_vs_red">myBg</string>
+    <string name="bg_description">background image for the main activity</string>
+    <string name="share_score_news">Share score news</string>
+    <string name="share_score_via_phone_call">Share score via phone call</string>
+    <string name="share_score_via_message">Share score via message</string>
+    <string name="search_for_basketball_near_me">Search for basketball near me</string>
+    <string name="enter_friend_phone_hint">Enter your friend\'s phone number</string>
+    <string name="enter_phone_number">Enter a phone number</string>
+    <string name="call_btn">Call</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="call_dialog_title">Make A Call</string>
+    <string name="message_dialog_title">Send Message</string>
+    <string name="enter__message_hint">Enter your message</string>
+    <string name="send_message_btn">Send</string>
+    <string name="msg_content" >placeholder</string>
+</resources>
